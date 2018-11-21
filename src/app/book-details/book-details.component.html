@@ -1,6 +1,6 @@
 <div class="ui grid" *ngIf="book">
   <div class="four wide column">
-    <img class="ui large image" 
+    <img class="ui large image"
     [src]="book.thumbnails[0].url">
   </div>
   <div class="twelve wide column">
@@ -34,6 +34,3 @@
     </div>
   </div>
 </div>
-
-<button (click)="showBookList()" class="ui red button">
-  Zurück zur Buchliste</button>
